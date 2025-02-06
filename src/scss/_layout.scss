@@ -1,0 +1,21 @@
+.l-header {
+  display: flex;
+  padding: 0px 52px 0px 53px;
+  justify-content: center;
+  align-items: center;
+  background: var(--dark-blue, #005564);
+  margin-bottom: 60px;
+}
+
+.l-title-header.is-active {
+  color: var(--dark-blue, #005564);
+}
+
+.l-header.is-active {
+  background-color: var(--yellow, #fce757);
+}
+
+.l-bottom {
+  background: var(--light-blue, #c0d9d9);
+  padding-top: 40px;
+}

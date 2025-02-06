@@ -1,0 +1,63 @@
+.product {
+  display: flex;
+  padding: 0px 40px 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: var(--green, #a0d187);
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.product-title {
+  color: var(--dark-blue, #005564);
+  text-align: center;
+  font-family: "Francois One";
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.product-description {
+  color: var(--dark-blue, #005564);
+  text-align: center;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.fa-circle-info {
+  color: var(--dark-blue, #005564);
+  text-align: center;
+  font-family: "Font Awesome 6 Free";
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.product-details {
+  color: var(--dark-blue, #005564);
+  text-align: center;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 400;
+  display: none;
+}
+
+.product.product1.is-active {
+  background: var(--red, #cf9697);
+}
+
+.product-details.product-detail1.is-active {
+  display: block;
+}
+
+.product-details.product-detail2.is-active {
+  display: block;
+}
+
+.product.product3.is-active {
+  background: var(--light-blue, #c0d9d9);
+}
+
+.product-details.product-detail3.is-active {
+  display: block;
+}

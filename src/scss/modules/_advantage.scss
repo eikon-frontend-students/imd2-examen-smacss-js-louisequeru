@@ -1,0 +1,17 @@
+.advantage {
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.advantage-title {
+  color: var(--dark-blue, #005564);
+  text-align: center;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 400;
+}
